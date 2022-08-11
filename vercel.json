@@ -1,0 +1,10 @@
+{
+   "version": 2,
+   "name": "you-matter",
+   "builds": [
+      { "src": "youmatterblockchain/app.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/app.js" }
+   ]
+}
